@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*------Header------*/
+
+header{
+    background-color: rgb(31, 31, 31);
+}
+
+header .navbar{
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    justify-content: end;
+}
+
+header .logo{
+    color: rgb(212, 0, 0);
+    font-weight: bold;
+    font-family: 'Arial Black', Times;
+    font-size: 2.5em;
+}
+
+header ul li .nav-link{
+    color: rgb(196, 196, 196);
+}
+
+header ul li .nav-link:hover{
+    color: #fff;
+}
+
+
+/*------Main------*/
+
+main{
+    background: url(/netflix-clone-master/img/capa-house.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.main-text{
+    max-width: 500px;
+    color: #fff;
+    padding-top: 200px;
+    padding-left: 10px;
+}
+
+.main-text h2{
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+
+}
+
+.main-text p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-text button{
+    background: rgba(0, 0, 0, 0.719);
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    padding: 10px 30px;
+    margin-right: 10px;
+    border: none;
+    transition-duration: 0.5s;    
+}
+
+.main-text button:hover{
+    background: rgb(255, 255, 255);
+    color: #000;  
+    transition-duration: 0.2s;
+}
+
+#carousel-filmes .carousel-indicators button{
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+
+/*Media Queries*/
+/* `sm` applies to x-small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+}
+
+/* `md` applies to small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+    header .navbar .navbar-brand{
+        margin-right: 0;
+        padding-top: 0rem;
+    padding-bottom: 0rem;
+    }
+    header .navbar .container-fluid{
+        justify-content: center;
+    }
+}
+
+/* `lg` applies to medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+
+}
+
+/* `xl` applies to large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+
+}
+
+/* `xxl` applies to x-large devices (large desktops, less than 1400px)*/
+@media (max-width: 1399.98px) {
+
+}
